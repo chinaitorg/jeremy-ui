@@ -1,0 +1,29 @@
+// @use "./mixins/mixins";
+@use './mixins/mixins' as *;
+
+@include b(row) {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  box-sizing: border-box;
+
+  @include when(horizontal-center) {
+    justify-content: center;
+  }
+  @include when(horizontal-end) {
+    justify-content: flex-end;
+  }
+  @include when(horizontal-space-between) {
+    justify-content: space-between;
+  }
+  @include when(horizontal-space-around) {
+    justify-content: space-around;
+  }
+
+  @include when(align-middle) {
+    align-items: center;
+  }
+  @include when(align-bottom) {
+    align-items: flex-end;
+  }
+}

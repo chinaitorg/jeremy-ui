@@ -20,6 +20,9 @@ export const components = {
   'Tabs': {
     name: 'Tabs', title: 'Tabs 标签页'
   },
+  'Layout': {
+    name: 'Layout', title: 'Layout 布局'
+  },
 }
 export const guidances = {
   'introduction': { path: "introduction", title: "介绍" },
