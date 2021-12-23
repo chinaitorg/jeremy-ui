@@ -63,7 +63,8 @@ import JeremyTabss from "../components/contents/Tabs";
 import JeremyLayout from "../components/contents/Layout";
 
 import { ref } from "vue";
-import { JeremyCard, JeremyTable } from "jeremy-ui"
+import JeremyCard from "../lib/Card.vue";
+import JeremyTable from "../lib/Table.vue";
 import "prismjs";
 // import "prismjs/themes/prism.css";
 
