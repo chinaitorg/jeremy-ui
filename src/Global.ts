@@ -22,7 +22,7 @@ export const components = {
   },
   'Layout': {
     name: 'Layout', title: 'Layout 布局'
-  },
+  }
 }
 export const guidances = {
   'introduction': { path: "introduction", title: "介绍" },
